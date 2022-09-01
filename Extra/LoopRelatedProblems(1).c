@@ -6,13 +6,13 @@ Sample Output: The Number you gave was 512, Digit= 3 , Sum= 8
 #include<stdio.h>
 int main()
 {
-    int number, digit = 0, sum = 0, temp;
+    int number, digit = 0, sum = 0, numtemp ;
     printf("Enter a number:");
     scanf("%d",&number);
     while(number > 0)
     {
-        temp = number % 10;
-        sum=sum + temp;
+        numtemp = number % 10;
+        sum= sum + numtemp;
         number = number / 10;
         digit = digit+1;
     }
