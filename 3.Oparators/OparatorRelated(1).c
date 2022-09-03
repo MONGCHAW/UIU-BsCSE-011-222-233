@@ -6,10 +6,10 @@ int main()
     int a, b, addition, product, subtraction, quotient, remainder ;                 // Uninitialized variable
 
 // Inputing the Numbers
-    printf("Enter the first numbers\n");
+    printf("Enter the first numbers:");
     scanf("%d", &a);
-    printf("Enter the secound number\n");
-    scanf("%f", &b);
+    printf("Enter the secound number:");
+    scanf("%d", &b);
 
 
 //Arithmatic Opparations
