@@ -13,11 +13,15 @@ int main()
 
 
 //Arithmatic Opparations
-    if(a == b){
+    if(a == b)
+    {
             printf("Both Equal\n");
             return 0;
-        }
-    maximum = (a > b) ? a : b;  
+    }
+       
+    maximum = (a > b) ? a : b;
+
+
 // Print variables
     printf("%d is Maximum\n", maximum);  
 
