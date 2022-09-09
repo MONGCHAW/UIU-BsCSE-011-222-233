@@ -15,6 +15,5 @@
     {
       printf("%d ", i);
     }
-      printf("Reached");
       return 0;
   }
