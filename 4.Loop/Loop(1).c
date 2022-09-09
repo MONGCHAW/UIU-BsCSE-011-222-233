@@ -15,6 +15,6 @@ int main()
   {
     printf("%d ", i);
   }
-    printf("Reached");
-    return 0;
+
+return 0;
 }
