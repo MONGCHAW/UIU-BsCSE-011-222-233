@@ -17,32 +17,10 @@ int main()
     scanf("%d", &c);
 
 //Opparations
-   
-    if ((a+b) <= 80)
-        {
-            printf("a) 1 \n");
-        }
-    else
-        {
-            printf("a) 0 \n");
-        }
-    if (!(a+c))
-        {
-            printf("b) 1 \n");
-        }
-    else
-        {
-            printf("b) 0 \n");
-        }
 
-    if (a != 0)
-        {
-            printf("c) 1 \n");
-        }
-    else
-        {
-            printf("c) 0 \n");
-        }        
+    printf("a) %d\n", (int) (( a + b ) <= 80 && b >= 0 );
+    printf("b) %d\n", (int) (( a - b ) == 0 || c != 0 );
+    printf("c) %d\n", (int) (a != b || ( b < a ) && c  > 0);
 
    return 0;
 }

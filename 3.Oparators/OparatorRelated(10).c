@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int main()
 {
 // Create variables
@@ -17,33 +17,10 @@ int main()
     scanf("%d", &c);
 
 //Opparations
-   
-    if ((a+b) >= 80 && b >= 0)
-        {
-            printf("a) 1 \n");
-        }
-        else
-            {
-                printf("a) 0 \n");
-            }
 
-    if ((a-b)== 0 ||c != 0)
-        {
-            printf("b) 1 \n");
-        }
-        else
-            {
-                printf("b) 0 \n");
-            }
+    printf("a) %d\n", (int)((a+b) <= 80));
+    printf("b) %d\n", (int)(!(a+c)));
+    printf("c) %d\n", (int)(a != 0));    
 
-    if (a != b ||( b < a ) && c >0)
-        {
-            printf("c) 1 \n");
-        }
-        else
-            {
-                printf("c) 0 \n");
-            }        
-    
-   return 0;
+return 0;
 }
