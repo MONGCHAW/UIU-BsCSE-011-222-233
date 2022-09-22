@@ -1,25 +1,22 @@
 #include <stdio.h>
 int main() {
-    int n, i,b;
-    unsigned long long fact = 1;
+  int n, reversed = 0, remainder, original;
     printf("Enter an integer: ");
     scanf("%d", &n);
+    original = n;
 
-    printf("%d != %d", n, n);
-    // shows error if the user enters a negative integer
-    if (n < 0)
-      printf("Error! Factorial of a negative number doesn't exist.");
-    else {
-        for (i = 1; i <= n; ++i) {
-            fact *= i;
-            b = n-i;
-        if (b >0)
-            {
-            printf(" x %d ", b);
-            }
-        }
+    // reversed integer is stored in reversed variable
+    while (n != 0) {
+        remainder = n % 10;
+        reversed = reversed * 10 + remainder;
+        n /= 10;
     }
-    printf("= %llu", fact);
+
+    // palindrome if orignal and reversed are equal
+    if (original == reversed)
+        printf("YES");
+    else
+        printf("NO";
+
     return 0;
 }
-;

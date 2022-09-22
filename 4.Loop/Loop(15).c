@@ -1,19 +1,17 @@
 #include <stdio.h>
-#include <math.h>
-int main()
-{
-// Create variables
-    int x, y, ans ;                  // Uninitialized variable
 
-// Inputing the Numbers
-      printf("Enter the the number of x:");
-        scanf("%d", &x);
-      printf("Enter the the number of x:");
-        scanf("%d", &y);
-      
-//Logics
-  ans = pow(x,y);
-  printf("%d", ans ) ;
-
- return 0;
+int main() {
+    int x, y, i=1, ans = 1;
+    
+    scanf ("%d", &x);
+    
+    scanf ("%d", &y);
+    
+    for(; i<=y; i++)
+    {
+        ans = ans*x;
+    }
+    
+    printf("%d", ans);
+    return 0;
 }
