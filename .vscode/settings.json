@@ -31,5 +31,6 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }

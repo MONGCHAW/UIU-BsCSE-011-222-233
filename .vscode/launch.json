@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Lab6",
+      "request": "launch",
+      "mainClass": "Lab6",
+      "projectName": "UIU-BsCSE-011_222_233_-1st-2nd-_d8ee700b"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
